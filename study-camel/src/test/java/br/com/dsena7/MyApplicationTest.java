@@ -9,14 +9,14 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * A simple unit test showing how to test the application {@link MainApplication}.
+ * A simple unit test showing how to test the application {@link Main}.
  */
 class MyApplicationTest extends CamelMainTestSupport {
 
     @Override
     protected Class<?> getMainClass() {
         // The main class of the application to test
-        return MainApplication.class;
+        return Main.class;
     }
 
     @Test

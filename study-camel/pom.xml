@@ -43,11 +43,6 @@
     </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
-      <artifactId>camel-test-main-junit5</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.camel</groupId>
       <artifactId>camel-file</artifactId>
     </dependency>
     <dependency>
@@ -80,7 +75,11 @@
       <artifactId>camel-rest</artifactId>
       <version>3.20.0</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-test-main-junit5</artifactId>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
   <build>
     <defaultGoal>install</defaultGoal>
@@ -106,7 +105,7 @@
         <version>3.20.0</version>
         <configuration>
           <logClasspath>true</logClasspath>
-          <mainClass>br.com.dsena7.MainApplication</mainClass>
+          <mainClass>br.com.dsena7.Main</mainClass>
         </configuration>
       </plugin>
       <plugin>

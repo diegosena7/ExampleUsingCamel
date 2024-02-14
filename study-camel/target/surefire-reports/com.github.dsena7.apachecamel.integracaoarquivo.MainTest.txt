@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.github.dsena7.apachecamel.integracaoarquivo.MainTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.43 s <<< FAILURE! - in com.github.dsena7.apachecamel.integracaoarquivo.MainTest
-com.github.dsena7.apachecamel.integracaoarquivo.MainTest.should_complete_the_auto_detected_route  Time elapsed: 1.55 s  <<< ERROR!
-org.apache.camel.FailedToStartRouteException: Failed to start route servidor-http because of null
-Caused by: java.lang.IllegalStateException: Cannot find RestConsumerFactory in Registry or as a Component to use
-
