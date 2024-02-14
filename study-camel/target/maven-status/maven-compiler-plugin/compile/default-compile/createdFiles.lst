@@ -1,0 +1,5 @@
+org\acme\camel\IntegracaoArquivos.class
+org\acme\camel\ServidorHttp.class
+org\acme\camel\IntegracaoTransportadora2.class
+org\acme\camel\MainApplication.class
+org\acme\camel\IntegracaoTransportadora1.class
